@@ -1,7 +1,7 @@
 language: ruby
 rvm:
 - 2.1.1
-bundler_args: --without kitchen_vagrant
+bundler_args: "--without kitchen_vagrant"
 before_install:
 - echo -n $EC2_SSH_KEY_CHUNK_{0..25} >> ~/.ssh/id_ec2.base64
 - cat ~/.ssh/id_ec2.base64 | tr -d ' ' | base64 --decode > ~/.ssh/id_ec2
@@ -45,6 +45,7 @@ env:
   - secure: YEO3bLXSdcBniHDga3l5jwfXChkmA1I1qGyJybBPKsedhlb/7P/GQOgdWtSi7bEnBLOpGkz6hNCZ8Z1kTHydDwlgAPZUi+FfV8GmvcjprtcEahdBLEYCdFEbyydE/Mtf57t6FznlD958zQbd832rteXZ2fYBIHayeQOOdH9vnt4=
   - secure: exhd/6/BXjcIZA9zCBpyBT+0j5H0eHY7f2JquWw7H/Y/5kq4mLOZvNsskkfifu11Xh9oq/yiz0/xezRYJm9AdqvDHav6R+IxB5SlFhbSqZxR7Nygc3JZSHU68R79eb7BR/6XaZUG24Sku+hs9DV7Uu6aS+KkoOGBz4dePDlfHUk=
   - secure: DzhtwmJJkzYOb1DcjyrpH2rC4yt4n3pLd2VQjXT/eKysJ4BkV76TLonJVYr0GOKheZnetO5nt79iQ6D2LujFhfEqMvi+MW9ZhiaT4QF7IrzpOCFtJeapKmh1NJFpdEnh98wJWEBtpNfVWtGAHfEkrhQaf/6dvtb4G0R5969FrVQ=
+  - secure: etdJ4pR7oKpPlXIZdG8ByWZo02Dh59VVEHz086nx8V0O/osPK4dgM4yf4T0hMxaQTRVbfnVlDhpdnK6CJPfLW0zkB8+hz7dAo2ioPdBZpFa3t6w/vt0vn4j/APfxRCN68g4KsuG/S+CHOfCmSsksZ0QUUJi9DvUm+TgyV9R/IaE=
   matrix:
   - KITCHEN_INSTANCE="default-ubuntu-1204"
 notifications:
