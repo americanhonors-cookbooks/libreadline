@@ -114,6 +114,6 @@ limitations under the License.
 
 [build-status]: https://travis-ci.org/americanhonors/chef-libreadline
 [dependency-status]: https://gemnasium.com/americanhonors/chef-libreadline
-[readline]: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+[libreadline]: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
 [apt-cookbook]: https://github.com/opscode-cookbooks/apt
 [opscode-cookbooks]: https://github.com/opscode-cookbooks
