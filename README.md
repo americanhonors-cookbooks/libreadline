@@ -1,7 +1,7 @@
 # libreadline Cookbook
 
-[![Build Status](https://travis-ci.org/americanhonors/chef-libreadline.svg?branch=master)][build-status]
-[![Dependency Status](https://gemnasium.com/americanhonors/chef-libreadline.svg)][dependency-status]
+[![Build Status](https://travis-ci.org/americanhonors-cookbooks/libreadline.svg?branch=master)][build-status]
+[![Dependency Status](https://gemnasium.com/americanhonors-cookbooks/libreadline.svg)][dependency-status]
 
 Installs [libreadline][libreadline].
 
@@ -68,7 +68,7 @@ Use the dev recipe if you need development headers for libreadline.
 
 ## License & Authors
 
-* Author:: Tony Burns (<tony.burns@americanhonors.org>)
+* Author:: Tony Burns (<tony.burns@americanhonors-cookbooks.org>)
 
 ```text
 Copyright (c) 2014 Quad Learning, Inc.
@@ -112,8 +112,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-[build-status]: https://travis-ci.org/americanhonors/chef-libreadline
-[dependency-status]: https://gemnasium.com/americanhonors/chef-libreadline
+[build-status]: https://travis-ci.org/americanhonors-cookbooks/libreadline
+[dependency-status]: https://gemnasium.com/americanhonors-cookbooks/libreadline
 [libreadline]: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
 [apt-cookbook]: https://github.com/opscode-cookbooks/apt
 [opscode-cookbooks]: https://github.com/opscode-cookbooks
